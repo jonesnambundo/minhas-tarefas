@@ -19,7 +19,7 @@ function retornoCorDeFundo(props: TagProps): string {
     if (props.status === enums.Status.PENDENTE) return variaveis.amarelo
     if (props.status === enums.Status.CONCLUIDA) return variaveis.verde
   }
-  return '#ccc'
+  return '#2f3640'
 }
 
 export const Card = styled.div`
